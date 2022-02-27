@@ -1,0 +1,10 @@
+<div class="board">
+    <div class="status">{{status}}</div>
+  
+    <div class="square-wrapper">
+      <div *ngFor="let value of values, index as id">
+        <app-square-triki [value]="value" [id]="id" (play)="onPlay(id)"></app-square-triki>
+      </div>
+    </div>
+    <button type="button" class="reset btn btn-primary" (click)="onReset()">Juguemos de nuevo</button>
+  </div>

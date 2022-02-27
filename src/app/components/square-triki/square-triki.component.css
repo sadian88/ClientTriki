@@ -1,0 +1,16 @@
+button {
+    cursor: pointer !important;
+    background-color: #f8f9fa;
+    border: 0px solid #5d5d5d;
+    border-width: px 0px 0px 1px;
+    outline: none;
+    width: 146px;
+    height: 146px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0;
+    margin: 2px;
+    box-sizing: border-box;
+    font-family: cursive;
+    font-size: 70px
+}
